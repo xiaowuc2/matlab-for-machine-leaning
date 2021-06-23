@@ -43,7 +43,7 @@
    ```
 5. How to thank 'you'?
    ```
-   Star this Repository and Support our research team @qxresearch
+   Star this Repository and follow us on twitter @qxresearchx to Support our research team @qxresearch
    ```
 
 ### Other Resources #mathworks: 
