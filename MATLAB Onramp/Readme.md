@@ -90,19 +90,19 @@ y =
 
 ### 2.2 Naming Variables 💡
 
->> a = 8
+\>> a = 8
 
 a =
 
      8
 
->> A = -2
+\>> A = -2
 
 A =
 
     -2
 
->> avgAa = (a+A)/2
+\>> avgAa = (a+A)/2
 
 avgAa =
 
@@ -110,13 +110,13 @@ avgAa =
 --------------
 ### 2.3 Saving and Loading Variables 💡
 
->> save datafile.mat
+\>> save datafile.mat
 
->> clear
+\>> clear
 
->> load datafile.mat
+\>> load datafile.mat
 
->> data
+\>> data
 
 ```
 data =
@@ -130,7 +130,7 @@ data =
    38.0000    2.5400    5.3002    4.4508
 ```
    Task 5
->> clr 
+\>> clr 
 
 ```
 ```
@@ -139,19 +139,19 @@ data =
 
 ### 2.4 Using Built-in Functions and Constants 💡
 
->> x = pi/2
+\>> x = pi/2
 
 x =
 
     1.5708
 
->> y = sin(x)
+\>> y = sin(x)
 
 y =
 
      1
 
->> z = sqrt(-9)
+\>> z = sqrt(-9)
 ```
 z =
 
