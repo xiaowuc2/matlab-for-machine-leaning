@@ -56,6 +56,11 @@ This repository is essence of Matlab for getting started with Machine Learning. 
 
 Just go throuh the readme.md files everything will be clear in one shot. From source code file you can copy the whole thing and paste it on [Octave Online](https://octave-online.net) to test. If you ruminate about the code, there are significant difference from Python.
 
+Practice here : #mathworks Course : [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
+
+<br>
+</br>
+
 ### 2.1 Entering Command 💡
 
 \>> 3*5
