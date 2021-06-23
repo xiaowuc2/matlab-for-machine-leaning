@@ -1,3 +1,23 @@
+<p align="center">
+  <a href="https://www.youtube.com/channel/UCX7oe66V8zyFpAJyMfPL9VA">
+    <img src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/Matlab_Logo.png" alt="MATLAB" width="250" height="250">
+  </a>
+  <h3 align="center">MATLAB for Machine Learning</h3>
+  <p align="center">
+    Variable • Files • Vector & Matrices • Array • Function • Plotting
+      <br />
+    <br>
+  </p>
+</p>
+
+
+[![GitHub](https://img.shields.io/static/v1.svg?label=Collaborators&message=1&color=success&logo=github&style=social)](https://github.com/qxresearch/Simple-Harmonic-Motion/graphs/contributors)
+[![YouTube](https://img.shields.io/static/v1.svg?label=YouTube&message=@qxresearch&color=grey&logo=youtube&style=flat&logoColor=white&colorA=critical)](https://www.youtube.com/channel/UCX7oe66V8zyFpAJyMfPL9VA)
+  [![LinkedIn](https://img.shields.io/static/v1.svg?label=LinkedIn&message=xiaowuc2&color=success&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/xiaowuc2)
+  [![Quora](https://img.shields.io/static/v1.svg?label=Quora&message=84.1k+views&color=white&logo=quora&style=social)](https://www.quora.com/profile/Rohit-Prasan-Mandal)
+    <img alt="AUR last modified" src="https://img.shields.io/aur/last-modified/google-chrome">
+
+
 ### 2.1 Entering Command 💡
 
 \>> 3*5
