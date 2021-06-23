@@ -22,7 +22,7 @@
 
 1. Python vs Matlab : 
    ```
-   MATLAB : is the easiest and most productive computing environment for engineers and scientists. It includes 
+   MATLAB : is the easiest & most productive computing environment for engineers and scientists. It includes 
    MATLAB language, the only top programming language dedicated to mathematical and technical computing.
 
    Python : is a general-purpose programming language.
