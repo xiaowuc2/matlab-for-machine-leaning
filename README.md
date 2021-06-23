@@ -50,4 +50,4 @@
 
 1. [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
 2. [Machine Learning Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=machinelearning)
-3. [All #mathworks Resources](https://matlabacademy.mathworks.com/)
+3. [All Resources #mathworks](https://matlabacademy.mathworks.com/)
