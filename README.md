@@ -19,7 +19,7 @@
     [![MATLAB](https://github.com/mathworks/Database-Explorer-for-IIASA/workflows/MATLAB/badge.svg)](https://github.com/mathworks/Database-Explorer-for-IIASA/actions?query=workflow%3AMATLAB)
   
   
-### The Fundamental Questions of Life!
+### 🗺️ The Fundamental Questions of Life!
 
 1. Python vs Matlab : 
    ```
@@ -47,7 +47,7 @@
    Star this Repository and follow us on twitter @qxresearchx to Support our research team @qxresearch
    ```
 
-### What's in the Repository?
+### 🗺️ What's in the Repository?
 
 
 This repository is essence of Matlab for getting started with Machine Learning. For each course there is: 
@@ -57,7 +57,7 @@ This repository is essence of Matlab for getting started with Machine Learning. 
 Just go throuh the readme.md files everything will be clear in one shot. From source code file you can copy the whole thing and paste it on [Octave Online](https://octave-online.net) to test. If you ruminate about the code, there are significant difference from Python. 
 
 
-### Other Resources #mathworks: 
+### 🗺️ Other Resources #mathworks: 
 
 1. [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
 2. [Machine Learning Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=machinelearning)
