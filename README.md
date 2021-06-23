@@ -45,3 +45,9 @@
    ```
    Star this Repository and Support our research team @qxresearch
    ```
+
+### Other Resources #mathworks: 
+
+1. [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
+2. [Machine Learning Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=machinelearning)
+3. [All #mathworks Resources](https://matlabacademy.mathworks.com/)
