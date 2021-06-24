@@ -362,12 +362,27 @@ Task : prtint the last two columns of 'data'
 
 \>> volumes = data(:,end-1:end)
 ```
-    4.0753       NaN
-    6.6678    2.1328
-    1.5177    3.6852
-    3.6375    8.5389
-    4.7243   10.1570
-    9.0698    2.8739
-    5.3002    4.4508
+4.0753       NaN
+6.6678    2.1328
+1.5177    3.6852
+3.6375    8.5389
+4.7243   10.1570
+9.0698    2.8739
+5.3002    4.4508
 ```
-\>> 
+Task : place the 6th element of 'density' in variable 'p'
+
+\>>  p = density(6)
+```
+p = 6.1100
+```
+Task : place 2nd throught 5th element of 'density' in variable 'p'
+
+\>> p = density(2:5)
+```
+1.7800
+0.8600
+1.6000
+3.0000
+```
+--------------
