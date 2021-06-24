@@ -234,7 +234,7 @@ x = 4 #one dimentional array. By default row vector
 ```
 0    0.250    0.500    0.750    1.000
 ```
-#### Transpose Operator : '
+#### Transpose Operator : `'`
 \>> x = 1:3;
 \>> x = x'
 ```
@@ -300,7 +300,7 @@ x = 4 #one dimentional array. By default row vector
 </p>
 
 ### 5.1 Indexing into Arrays
-Given 'datafile', let's see what's inside
+Given `datafile`, let's see what's inside
 
 \>> load datafile
 \>> data
@@ -317,7 +317,7 @@ Given 'datafile', let's see what's inside
 ```
 x = 9.0698
 ```
-#### 'end' keyword : end of the array. eg. end - 1 , end - 2 
+#### `end` keyword : end of the array. eg. end - 1 , end - 2 
 
 \>> x = data(end,3)
 ```
@@ -331,7 +331,7 @@ x = 9.0698
 
 ### 5.2 Extracting Multiple Elements
 
-Given 'datafile'. Let's see what's in there
+Given `datafile`. Let's see what's in there
 
 \>> load datafile
 \>> data
@@ -346,7 +346,7 @@ Given 'datafile'. Let's see what's in there
 ```
 #### Colon Operator (:) : All, like python.
 
-Task : print the second column of data
+Task : print the second column of `data`
 
 \>> density = data(:,2)
 ```
@@ -358,7 +358,7 @@ Task : print the second column of data
 6.1100
 2.5400
 ```
-Task : prtint the last two columns of 'data'
+Task : prtint the last two columns of `data`
 
 \>> volumes = data(:,end-1:end)
 ```
@@ -370,13 +370,13 @@ Task : prtint the last two columns of 'data'
 9.0698    2.8739
 5.3002    4.4508
 ```
-Task : place the 6th element of 'density' in variable 'p'
+Task : place the 6th element of `density` in variable `p`
 
 \>>  p = density(6)
 ```
 p = 6.1100
 ```
-Task : place 2nd throught 5th element of 'density' in variable 'p'
+Task : place 2nd throught 5th element of `density` in variable `p`
 
 \>> p = density(2:5)
 ```
@@ -386,3 +386,19 @@ Task : place 2nd throught 5th element of 'density' in variable 'p'
 3.0000
 ```
 --------------
+### 5.3 Changing Values in Arrays
+
+Given `datafile`. Let's see what's in there
+
+\>> load datafile
+\>> data
+```
+3.0000 0.5300 4.0753 NaN
+18.0000 1.7800 6.6678 3.6852
+19.0000 0.8600 1.5177 3.5389
+20.0000 1.6000 3.6375 10.1570
+21.0000 3.0000 4.7243 10.1570
+23.0000 6.1100 9.0698 2.8739
+38.0000 2.5400 5.3002 4.4508
+```
+Task : create a vector `v2` containing the last column of `data`
