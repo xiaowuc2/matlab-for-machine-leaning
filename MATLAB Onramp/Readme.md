@@ -17,35 +17,7 @@
   [![Twitter Follow](https://img.shields.io/twitter/follow/qxresearchx?label=%40qxresearchx&style=social)](https://twitter.com/qxresearchx)
     <img alt="AUR last modified" src="https://img.shields.io/aur/last-modified/google-chrome">
     [![MATLAB](https://github.com/mathworks/Database-Explorer-for-IIASA/workflows/MATLAB/badge.svg)](https://github.com/mathworks/Database-Explorer-for-IIASA/actions?query=workflow%3AMATLAB)
-  
-  
-### 🗺️ The Fundamental Questions of Life!
-
-1. Python vs Matlab : 
-   ```
-   MATLAB : is the easiest & most productive computing environment for engineers and scientists. It 
-   includes MATLAB language, the only top programming language dedicated to mathematical and technical 
-   computing.
-
-   Python : is a general-purpose programming language.
-   ```
-2. Which on is faster :
-   ```
-   MATLAB ; matlab takes to complete the task is 0.252454 seconds while numpy 0.973672151566
-   ```
-  
-3. How many decades will it take to learn Matlab?
-   ```
-   2 hour or less with this optimised note(if you know basics of Pyhon)
-   ``` 
-4. But Matlab is Paid!
-   ```
-   I understand. Use Octave Online for free : https://octave-online.net/
-   ```
-5. How to thank 'you'?
-   ```
-   Star this Repository and follow us on twitter @qxresearchx to Support our research team @qxresearch
-   ```
+ 
 
 ### 🗺️ What's in the Repository?
 
