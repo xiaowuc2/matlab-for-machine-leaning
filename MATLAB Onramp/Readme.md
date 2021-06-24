@@ -62,6 +62,13 @@ Just go throuh the readme.md files everything will be clear in one shot. From so
 | `linspace(first,last,number_of_elements)` | from first to last prints `n` with same difference | x = linespace(1,10,5) |
 | `end` | `end` of a Matrix . helpts to find row column elements | data(end-1,end) |
 | `round` | Roundes up float to integer | round(1.2354) |
+| `*` | Matrix Matrix multiplication | A * B |
+| `.*` | Element wise multiplication between matrix | A .* B |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 |  |  |  |
 |  |  |  |
 |  |  |  |
