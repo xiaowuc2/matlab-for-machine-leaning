@@ -28,20 +28,18 @@ This repository is essence of Matlab for getting started with Machine Learning. 
 
 Just go throuh the readme.md files everything will be clear in one shot. From source code file you can copy the whole thing and paste it on [Octave Online](https://octave-online.net) to test. If you ruminate about the code, there are significant difference from Python. Important and coonfusing topics are matked with `⚠️`.
 
-#### Practice here : 
-mathworks Course : [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
+#### Practice @mathworks : [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
+
+--------------
 
 #### Table of Contents:
 
-1. [2.1 Entering Command 💡](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#21-entering-command-)
+1. [2.1 Entering Command](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#21-entering-command-)
 2. [2.2 Naming Variables](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#22-naming-variables-)
 3. [2.3 Saving and Loading Variables](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#23-saving-and-loading-variables-)
 4. [2.4 Using Built-in Functions and Constants](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#24-using-built-in-functions-and-constants-)
 5. []()
 6. []()
-
-#### Practice here : 
-#mathworks Course : [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
 
 --------------
 <p align="center">
@@ -93,7 +91,7 @@ mathworks Course : [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/po
 <br>
 </br>
 
-### 2.1 Entering Command 💡
+### 2.1 Entering Command
 
 \>> 3*5
 
@@ -135,7 +133,7 @@ y =
 
 --------------
 
-### 2.2 Naming Variables 💡
+### 2.2 Naming Variables
 
 \>> a = 8
 
@@ -155,7 +153,7 @@ avgAa =
 
      3
 --------------
-### 2.3 Saving and Loading Variables 💡
+### 2.3 Saving and Loading Variables
 
 \>> save datafile.mat
 
@@ -184,7 +182,7 @@ data =
 
 --------------
 
-### 2.4 Using Built-in Functions and Constants 💡
+### 2.4 Using Built-in Functions and Constants
 
 \>> x = pi/2
 
