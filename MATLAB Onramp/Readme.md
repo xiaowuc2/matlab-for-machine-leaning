@@ -494,3 +494,15 @@ Task : Add 1 to each element of `v1` and store the result in a variable named `r
 10.0698
  6.3002
 ```
+Task : Create a vector `vs` that is the sum of the vectors `v1` and `v2`
+
+\>> vs = v1 + v2
+```
+  NaN
+ 8.8006
+ 5.2029
+12.1764
+14.8813
+11.9437
+ 9.7510
+```
