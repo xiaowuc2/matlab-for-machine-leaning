@@ -200,4 +200,16 @@ x = 4 #one dimentional array. By default row vector
 
 ### 4.2 Creating Evenly-Spaced Vectors
 
-\>> 
+\>> x = [ 1 2 3]
+```
+1  2  3 #manually
+```
+\>> y = 5 : 8
+```
+5  6  7  8 #last point is inclusive unlike python
+```
+
+\>> x = 1 : 0.5 : 5 # start : step : end
+```
+1.0000  1.5000  2.0000  2.5000  3.0000  3.5000  4.0000  4.5000  5.0000
+```
