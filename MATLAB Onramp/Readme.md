@@ -152,7 +152,7 @@ data =
 |`Inf` |	Infinity|
 |`NaN` |	Undefined numerical result (not a number)|
 |`pi` |	The number π|
-|`sin()``cos`| Trigonometric function|
+|`sin()` `cos()`| Trigonometric function|
 
 \>> x = pi/2
 
