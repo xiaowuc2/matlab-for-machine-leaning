@@ -692,11 +692,21 @@ Given `datafile`. Let's see what's in there
 ```
 Task : Create a plot with sample on the x-axis and mass1 on the y-axis.
 
-\>>
+\>> plot(sample,mass1)
 
 <kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot1.png"/></a></kbd><br/>
-https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot1.png
 
+⚠️
+
+The plot function accepts an additional argument that allows you to specify the color, line style, and marker style using different symbols in single quotes.
+plot(x,y,"r--o")
+The command above plots a red (r) dashed (--) line with a circle (o) as a marker. You can learn more about the symbols available in the documentation for Line Specification.
+
+Task : Plot mass2 (y-axis) against sample (x-axis). Use red (r) star (*) markers and no line in your plot.
+
+\>> plot(sample,mass2,"r*")
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot2.png"/></a></kbd><br/>
 
 
 
