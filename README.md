@@ -76,7 +76,3 @@ Machine Learning Onramp  | `NumPy` `Pandas` `Matplotlib` `OpenCV` `Scipy` | [Not
 1. [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
 2. [Machine Learning Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=machinelearning)
 3. [All Resources #mathworks](https://matlabacademy.mathworks.com/)
-
-The action of every agent <br />
-  into the world <br />
-  fs the easiest &computi <br />
