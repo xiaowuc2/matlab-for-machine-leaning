@@ -281,7 +281,7 @@ x = 4 #one dimentional array. By default row vector
 1  1  1
 1  1  1
 ```
-/>> x = zerso(6,3)
+\>> x = zerso(6,3)
 ```
 0  0  0  
 0  0  0
@@ -298,4 +298,70 @@ x = 4 #one dimentional array. By default row vector
   </p>
 </p>
 
+### 5.1 Indexing into Arrays
+Given 'datafile', let's see what's inside
+\>> load datafile
+\>> data
+```
+3.0000 0.5300 4.0753 NaN
+18.0000 1.7800 6.6678 3.6852
+19.0000 0.8600 1.5177 3.5389
+20.0000 1.6000 3.6375 10.1570
+21.0000 3.0000 4.7243 10.1570
+23.0000 6.1100 9.0698 2.8739
+38.0000 2.5400 5.3002 4.4508
+```
+\>> x = data(6,3)
+```
+x = 9.0698
+```
+#### 'end' keyword : end of the array. eg. end - 1 , end - 2 
+\>> x = data(end,3)
+```
+5.3002
+```
+\>> x = data(end-1,3)
+```
+x = 9.0698
+```
+--------------
+
+### 5.2 Extracting Multiple Elements
+
+Given 'datafile'. Let's see what's in there
+\>> load datafile
+\>> data
+```
+3.0000 0.5300 4.0753 NaN
+18.0000 1.7800 6.6678 3.6852
+19.0000 0.8600 1.5177 3.5389
+20.0000 1.6000 3.6375 10.1570
+21.0000 3.0000 4.7243 10.1570
+23.0000 6.1100 9.0698 2.8739
+38.0000 2.5400 5.3002 4.4508
+```
+#### Colon Operator (:) : All, like python.
+
+Task : print the second column of data
+\>> density = data(:,2)
+```
+0.5300
+1.7800
+0.8600
+1.6000
+3.0000
+6.1100
+2.5400
+```
+Task : prtint the last two columns of 'data'
+\>> volumes = data(:,end-1:end)
+```
+    4.0753       NaN
+    6.6678    2.1328
+    1.5177    3.6852
+    3.6375    8.5389
+    4.7243   10.1570
+    9.0698    2.8739
+    5.3002    4.4508
+```
 \>> 
