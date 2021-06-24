@@ -261,6 +261,7 @@ x = 4 #one dimentional array. By default row vector
 ### 4.3 Array Creation Functions
 
 #### rand(size, classname) function. Creates a size\*size  matrix with random values if dimention is not mentioned.
+
 \>> x = rand(2)
 ```
 0.8147    0.1270
@@ -300,6 +301,7 @@ x = 4 #one dimentional array. By default row vector
 
 ### 5.1 Indexing into Arrays
 Given 'datafile', let's see what's inside
+
 \>> load datafile
 \>> data
 ```
@@ -316,6 +318,7 @@ Given 'datafile', let's see what's inside
 x = 9.0698
 ```
 #### 'end' keyword : end of the array. eg. end - 1 , end - 2 
+
 \>> x = data(end,3)
 ```
 5.3002
@@ -329,6 +332,7 @@ x = 9.0698
 ### 5.2 Extracting Multiple Elements
 
 Given 'datafile'. Let's see what's in there
+
 \>> load datafile
 \>> data
 ```
@@ -343,6 +347,7 @@ Given 'datafile'. Let's see what's in there
 #### Colon Operator (:) : All, like python.
 
 Task : print the second column of data
+
 \>> density = data(:,2)
 ```
 0.5300
@@ -354,6 +359,7 @@ Task : print the second column of data
 2.5400
 ```
 Task : prtint the last two columns of 'data'
+
 \>> volumes = data(:,end-1:end)
 ```
     4.0753       NaN
