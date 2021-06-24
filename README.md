@@ -18,6 +18,16 @@
  
  <br></br>
  
+ ###  How to use this Repository?
+
+
+This repository contains the essence of Matlab. If you're interested in Machine Learning and Research then you should deffinetely go through the readme.md file once. This course will give you a clear insight about why we use MATLAB in the first place for Machine Learning.You can run the source codes(.m) on [Octave Online](https://octave-online.net). If you ruminate about the code, there is no significant difference between Python and Matlab, so just dive into it.
+
+#### 📖 Search Documentation function/operations : [MathWorks/help](https://in.mathworks.com/help/index.html)
+#### 📖 Practice & Certification @mathworks : [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted) | [Machine Learning Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=machinelearning)
+
+--------------
+ 
 ### ⚰️ The Fundamental Questions of Life!
 
 1. Python vs Matlab : 
@@ -48,18 +58,18 @@
 
 ### 🗺️ What's in the Repository?
 
-
-This repository is essence of Matlab for getting started with Machine Learning. For each course there is: 
-1. A `md` which is the note 
-2. A `.m` file which is source code
-
-Just go throuh the readme.md files everything will be clear in one shot. From source code file you can copy the whole thing and paste it on [Octave Online](https://octave-online.net) to test. If you ruminate about the code, there are significant difference from Python. 
-
 \#  | Topics | Note (.md) | Source Code (.m) 
 ------------- | ------------- | ------------- | ------------- 
 Matlab Onramp  |  `Variable`  `Files`  `Vector & Matrices`  `Array`  `Function`  `Plotting` | [Note]() | [Code]() 
 Machine Learning Onramp  | `NumPy` `Pandas` `Matplotlib` `OpenCV` `Scipy` | [Note]() | [Code]()
 
+
+--------------
+#### Interested in Machine Learning Research?
+You can join [@qxresearch](https://github.com/qxresearch) and become part of a 150+ developers team.</br> 
+To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject: `your-github-username @qxresearch`) attach your CV.
+
+--------------
 
 ### 🗺️ Other Resources #mathworks: 
 
