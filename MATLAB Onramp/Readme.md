@@ -662,7 +662,7 @@ x =
   </p>
 </p>
 
-### 9.1 Plotting Vectors
+### 9.1 Plotting Vectors ⚠️
 
 Given `datafile`. Let's see what's in there
 
@@ -695,8 +695,6 @@ Task : Create a plot with sample on the x-axis and mass1 on the y-axis.
 \>> plot(sample,mass1)
 
 <kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot1.png"/></a></kbd><br/>
-
-⚠️
 
 The plot function accepts an additional argument that allows you to specify the color, line style, and marker style using different symbols in single quotes.
 plot(x,y,"r--o")
