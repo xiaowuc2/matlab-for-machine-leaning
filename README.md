@@ -29,7 +29,7 @@ This repository contains the essence of Matlab. If you're interested in Machine 
 
 --------------
 
-#### Interested in Machine Learning Research?
+#### 🔬 Interested in Machine Learning Research?
 You can join [@qxresearch](https://github.com/qxresearch) and become part of a 150+ developers team.</br> 
 To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject: `your-github-username @qxresearch`) attach your CV.
 
