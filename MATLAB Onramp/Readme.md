@@ -732,6 +732,50 @@ Task : Plot the vector `v1`
 
 <kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot5.png"/></a></kbd><br/>
 
+The plot function accepts optional additional inputs consisting of a property name and an associated value.
+`plot(y,"LineWidth",5)`
+The command above plots a heavy line. You can learn more about available properties in the documentation for [Line Properties](https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.line-properties.html).
+
+Task : Plot `v1` with a line width of `3`
+
+\>> plot(v1,"3")
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot6.png"/></a></kbd><br/>
+
+You can provide additional inputs to the plot function after the line specifier.
+`plot(x,y,"ro-","LineWidth",5)`
+
+Task : Plot `v1` (y-axis) against `sample` (x-axis) with red (`r`) circle (`o`) markers and a solid line (`-`). Use a line width of `4`.
+
+\>> plot(sample,v1,"r-o","LineWidth",4)
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot7.png"/></a></kbd><br/>
+
+### 9.2 Annotating Plots
+
+Labels can be added to plots using plot annotation functions, such as title. `title("Plot Title")`
+
+\>> title("Sample Mass")
+
+```
+                      Sample Mass
+                      
+                      ---graph---
+```
+\>> ylabel("Mass (g)")
+
+```
+Mass (g) : will be added to the Y-axis
+```
+You can add a legend to your plot using the legend function.</br>
+`legend("a","b","c")`
+
+Task : Create a legend with the labels "Exp A" and "Exp B", in that order.
+
+\>> legend("Exp A","Exp B")
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot8.png"/></a></kbd><br/>
+
 --------------
 
 ### Interesting Facts & Projects @Matlab 
