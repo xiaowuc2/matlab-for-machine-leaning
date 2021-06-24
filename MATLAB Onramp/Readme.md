@@ -73,7 +73,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `plot(x,y,"r--o")` | Plot graph x,y where `r` means red, `--` the line of graph, `o` determines what the point should look like | plot(A,B,"r--o") |
 | `hold on` | To hold the previous plot while you add another line. | plot(x1,y1) \n hold on \n plot(x2,y2) |
 | `hold off` | Back to normal | `hold off` |
-|  |  |  |
+| `title("My Title")` | Add title to the graph | title("qxresearch") |
 |  |  |  |
 |`ans`	| Most recent answer|  |
 |`eps`	| Accuracy of floating-point precision|  |
