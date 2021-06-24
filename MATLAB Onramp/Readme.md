@@ -482,3 +482,15 @@ Given `datafile`. Let's see what's in there
 23.0000 6.1100 9.0698 2.8739
 38.0000 2.5400 5.3002 4.4508
 ```
+Task : Add 1 to each element of `v1` and store the result in a variable named `r`
+
+\>> r = v1 + 1
+```
+ 5.0753
+ 7.6678
+ 2.5177
+ 4.6375
+ 5.7243
+10.0698
+ 6.3002
+```
