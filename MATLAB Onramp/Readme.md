@@ -76,7 +76,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `title("My Title")` | Add title to the graph | title("qxresearch") |
 | `numel()` | Returns the number of elements in an Array. In python we uses `len()` | n = numel(A) |
 | `abs()` | Returns the absolute value | a = abs(-5) : output = 5 |
-|  |  |  |
+| `xlim([low high])` | For plotting we can bound the numbers | xlim([0 1000]) |
 |`ans`	| Most recent answer|  |
 |`eps`	| Accuracy of floating-point precision|  |
 |`i,j`	| The imaginary unit √-1|  |
