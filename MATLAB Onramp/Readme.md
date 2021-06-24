@@ -26,7 +26,7 @@ This repository is essence of Matlab for getting started with Machine Learning. 
 1. A `md` which is the note 
 2. A `.m` file which is source code
 
-Just go throuh the readme.md files everything will be clear in one shot. From source code file you can copy the whole thing and paste it on [Octave Online](https://octave-online.net) to test. If you ruminate about the code, there are significant difference from Python. Important Confusing topics are matked with `⚠️`
+Just go throuh the readme.md files everything will be clear in one shot. From source code file you can copy the whole thing and paste it on [Octave Online](https://octave-online.net) to test. If you ruminate about the code, there are significant difference from Python. Important and coonfusing topics are matked with `⚠️`
 
 #### Table of Contents:
 
