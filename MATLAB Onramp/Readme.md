@@ -157,4 +157,46 @@ z =
    0.0000 + 3.0000i
 ```  
 --------------
+### 4.1 Manually Entering Arrays
 
+\>> x = 4 #
+```
+x = 4 one dimentional array. By default row vector
+```
+
+\>> x = [7 9] 
+```
+7  9 #two dimentional array 1x2
+```
+
+\>> x = [7 ; 9]
+```
+7
+9
+
+#column vector, 1x2
+```
+
+\>> x = [3  10  5]
+```
+3  10  5
+
+#row vector 1x3
+```
+
+\>> x  = [5 6 7 ; 8 9 10]
+
+```
+5  6  7
+8  9  10
+```
+
+\>> x = [ sqrt(10) pi^2]
+
+```
+3.1623  9.8696
+```
+
+### 4.2 Creating Evenly-Spaced Vectors
+
+\>> 
