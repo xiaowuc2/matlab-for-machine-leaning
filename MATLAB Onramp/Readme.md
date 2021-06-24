@@ -28,6 +28,11 @@ This repository contains the essence of Matlab. If you're interested in Machine 
 #### 📖 Practice & Certification @mathworks : [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
 
 --------------
+#### Interested in Machine Learning Research?
+You can join [@qxresearch](https://github.com/qxresearch) and become part of a 150+ developers team.</br> 
+To join drop a [mail](mailto: rohitmandal814566@gmail.com) attach your CV and GitHub username.
+
+--------------
 
 ### 🗺️ Table of Contents:
 
