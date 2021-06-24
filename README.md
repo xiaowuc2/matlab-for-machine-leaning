@@ -35,7 +35,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 
 --------------
  
-### ✨ The Fundamental Questions of Life!
+### The Fundamental Questions of Life!
 
 #### 1. Python vs Matlab :
 
