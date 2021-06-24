@@ -213,3 +213,44 @@ x = 4 #one dimentional array. By default row vector
 ```
 1.0000  1.5000  2.0000  2.5000  3.0000  3.5000  4.0000  4.5000  5.0000
 ```
+#### linspace function : linspace(first,last,number_of_elements). | Same difference between them
+
+\>> x = linspace(0,1,5)
+```
+0    0.250    0.500    0.750    1.000
+```
+#### Transpose Operator : '
+\>> x = 1:3;
+\>> x = x'
+```
+1
+2
+3
+```
+\>> x = [1 2 3]'
+```
+1
+2
+3
+```
+
+\>> x = (1:2:5)' #1 to 5, step = 2
+```
+1
+2
+3
+```
+
+--------------
+
+### 4.3 Array Creation Functions
+#### rand(size, classname) function. Creates a size\*size  matrix with random values.
+\>> x = rand(2)
+```
+0.8147    0.1270
+0.9058    0.9134
+
+2x2 #and the valuse will change everytime
+```
+\>> 
+
