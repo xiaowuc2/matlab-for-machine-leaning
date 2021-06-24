@@ -64,8 +64,8 @@ Just go throuh the readme.md files everything will be clear in one shot. From so
 | `round` | Roundes up float to integer | round(1.2354) |
 | `*` | Matrix Matrix multiplication | A * B |
 | `.*` | Element wise multiplication between matrix | A .* B |
-|  |  |  |
-|  |  |  |
+| `size` | Array size | s = size(x) |
+| `;` | ⚠️ Inside `[` `]` it creates column matrix \| We add this at the end of a line to avoid printing it's value in console | 1. a = [1 2 3 : 4 5 6] 2. y = [ 1 2 3 ]; |
 |  |  |  |
 |  |  |  |
 |  |  |  |
@@ -221,7 +221,7 @@ x = 4 #one dimentional array. By default row vector
 7  9 #two dimentional array 1x2
 ```
 
-\>> x = [7 ; 9]
+\>> x = [7 ; 9] ⚠️
 ```
 7
 9
@@ -236,7 +236,7 @@ x = 4 #one dimentional array. By default row vector
 #row vector 1x3
 ```
 
-\>> x  = [5 6 7 ; 8 9 10]
+\>> x  = [5 6 7 ; 8 9 10] ⚠️
 
 ```
 5  6  7
@@ -608,4 +608,28 @@ Given `datafile`. Let's see what's in there
 21.0000 3.0000 4.7243 10.1570
 23.0000 6.1100 9.0698 2.8739
 38.0000 2.5400 5.3002 4.4508
+```
+
+#### size() function returns size of Array
+
+Task : Create a variable named `dsize` containing the size of the `data` variable
+
+\>> dsize = size(data)
+```
+7  4
+```
+Task : Create the variables `dr` and `dc` which respectively contain the number of rows and columns of the variable `data`
+
+\>> [dr,dc] = size(data) ⚠️
+```
+dr = 7
+dc = 4
+```
+
+Task : Create the variables `vMax` and `ivMax` containing the maximum value of the `v2` vector and the corresponding index value respectively
+
+\>> [vMax,ivMax] = max(v2)  ⚠️
+```
+vMax = 10.157
+ivMax = 5
 ```
