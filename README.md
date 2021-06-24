@@ -64,7 +64,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 
 ### 🗺️ What's in the Repository?
 
-\#  | Topics | Note (.md) | Source Code (.m) 
+Topics  | Subtopics | Note (.md) | Source Code (.m) 
 ------------- | ------------- | ------------- | ------------- 
 Matlab Onramp  |  `Variable`  `Files`  `Vector & Matrices`  `Array`  `Function`  `Plotting` | [Note]() | [Code]() 
 Machine Learning Onramp  | `NumPy` `Pandas` `Matplotlib` `OpenCV` `Scipy` | [Note]() | [Code]()
