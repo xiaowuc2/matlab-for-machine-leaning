@@ -18,6 +18,8 @@
     <img alt="AUR last modified" src="https://img.shields.io/aur/last-modified/google-chrome">
     [![MATLAB](https://github.com/mathworks/Database-Explorer-for-IIASA/workflows/MATLAB/badge.svg)](https://github.com/mathworks/Database-Explorer-for-IIASA/actions?query=workflow%3AMATLAB)
  
+<br>
+</br>
 
 ### 🗺️ What's in the Repository?
 
