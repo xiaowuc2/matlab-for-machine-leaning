@@ -159,9 +159,9 @@ z =
 --------------
 ### 4.1 Manually Entering Arrays
 
-\>> x = 4 #
+\>> x = 4 
 ```
-x = 4 one dimentional array. By default row vector
+x = 4 #one dimentional array. By default row vector
 ```
 
 \>> x = [7 9] 
@@ -196,6 +196,7 @@ x = 4 one dimentional array. By default row vector
 ```
 3.1623  9.8696
 ```
+--------------
 
 ### 4.2 Creating Evenly-Spaced Vectors
 
