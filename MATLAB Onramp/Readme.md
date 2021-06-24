@@ -63,7 +63,7 @@ This repository contains the essence of Matlab. If you're interested in Machine 
 | `.*` | Element wise multiplication between matrix | A .* B |
 | `size` | Array size | s = size(x) |
 | `;` | ⚠️ Inside `[` `]` it creates column matrix \| We add this at the end of a line to avoid printing it's value in console | 1. a = [1 2 3 : 4 5 6] 2. y = [ 1 2 3 ]; |
-|  |  |  |
+| `randi(imax,size)` | randi(imax) returns a pseudorandom scalar integer between 1 and imax. | r = randi(10,5) : between 1 to 10, 5 elements \| r = randi(10,1,5) : between 1 to 10, 1x5 elements |
 |  |  |  |
 |  |  |  |
 |  |  |  |
@@ -629,4 +629,30 @@ Task : Create the variables `vMax` and `ivMax` containing the maximum value of t
 ```
 vMax = 10.157
 ivMax = 5
+```
+--------------
+<p align="center">
+  <h3 align="center">Calling Functions</h3>
+  <p align="center">
+    Multiple Outputs from Function Calls
+  </p>
+</p>
+
+#### randi() function
+randi(imax) returns a pseudorandom scalar integer between 1 and imax.
+
+Task : Create a matrix `x` that Contains random integers in the range from 1 to 20 Has 5 rows Has 7 columns
+
+\>> x = randi(20,5,7)
+```
+x =
+
+   11    3   10    2   20   20    6
+    2    6   18    3   14   14   11
+   15    6   12   19   20   10   10
+    1   13    3   17   11   12    3
+   11    5    4    4   13   11   10
+   
+   #everytime the numbers will be random integers
+
 ```
