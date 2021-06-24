@@ -631,14 +631,6 @@ Task : Create the variables `vMax` and `ivMax` containing the maximum value of t
 vMax = 10.157
 ivMax = 5
 ```
---------------
-<p align="center">
-  <h3 align="center">Calling Functions</h3>
-  <p align="center">
-    Multiple Outputs from Function Calls
-  </p>
-</p>
-
 #### randi() function
 randi(imax) returns a pseudorandom scalar integer between 1 and imax.
 
@@ -655,5 +647,31 @@ x =
    11    5    4    4   13   11   10
    
    #everytime the numbers will be random integers
+
+```
+--------------
+<p align="center">
+  <h3 align="center">Plotting Data</h3>
+  <p align="center">
+    Plotting Vectors • Annotating Plots
+  </p>
+</p>
+
+
+
+
+
+
+
+
+
+--------------
+
+### Interesting Facts & Projects @Matlab 
+
+### Facts
+```
+1. Every Variable in Matlab is an Array(mutable)
+2. Indexing starts from 1 unline Python(starts from 0)
 
 ```
