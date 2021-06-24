@@ -777,6 +777,15 @@ Task : Create a legend with the labels "Exp A" and "Exp B", in that order.
 <kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot8.png"/></a></kbd><br/>
 
 --------------
+<p align="center">
+  <h3 align="center">Plotting Data</h3>
+  <p align="center">
+    Plotting Vectors • Annotating Plots
+  </p>
+</p>
+
+
+--------------
 
 ### Interesting Facts & Projects @Matlab 
 
