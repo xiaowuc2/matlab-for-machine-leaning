@@ -442,3 +442,33 @@ Task : Change the `NaN` in `data`
 23.0000    6.1100    9.0698    2.8739
 38.0000    2.5400    5.3002    4.4508
 ```
+--------------
+<p align="center">
+  <h3 align="center">Array Calculation</h3>
+  <p align="center">
+    Addition • Substraction • 
+</p>
+</p>
+
+### 6.1 Performing Array Operations on Vectors
+
+Given `datafile`. Let's see what's in there
+
+\>> load datafile
+    
+\>> density = data(:,2);
+
+\>> v1 = data(:,3);
+
+\>> v2 = data(:,4);    
+    
+\>> data
+```
+3.0000 0.5300 4.0753 NaN
+18.0000 1.7800 6.6678 3.6852
+19.0000 0.8600 1.5177 3.5389
+20.0000 1.6000 3.6375 10.1570
+21.0000 3.0000 4.7243 10.1570
+23.0000 6.1100 9.0698 2.8739
+38.0000 2.5400 5.3002 4.4508
+```
