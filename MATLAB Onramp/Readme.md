@@ -714,9 +714,23 @@ plot(x2,y2)</br>
 
 Task : Enter the `hold on` command. Then plot mass1 (y-axis) against sample (x-axis) with black (k) square (s) markers and no line
 
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot3.png"/></a></kbd><br/>
 
+While the hold state is on, plots will continue to go on the same axes. To return to the default plot behavior, where each plot gets its own axes, enter `hold off`
 
+Task : Enter the `hold off` command
 
+\>> hold off
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot4.png"/></a></kbd><br/>
+
+When you plot a single vector by itself, MATLAB uses the vector values as the y-axis data and sets the x-axis data to range from 1 to n (the number of elements in the vector) ⚠️
+
+Task : Plot the vector `v1`
+
+\>> plot(v1)
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot5.png"/></a></kbd><br/>
 
 --------------
 
