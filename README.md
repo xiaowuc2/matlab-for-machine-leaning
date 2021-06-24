@@ -22,7 +22,6 @@
  
  ### What is this Repository all about?
 
-
 This repository contains the essence of Matlab. If you're interested in Machine Learning and Research then you should deffinetely go through the readme.md file once. This course will give you a clear insight about why we use MATLAB in the first place for Machine Learning.You can run the source codes(.m) on [Octave Online](https://octave-online.net). If you ruminate about the code, there is no significant difference between Python and Matlab, so just dive into it.
 
 #### 📖 Search Documentation function/operations : [MathWorks/help](https://in.mathworks.com/help/index.html)
@@ -36,24 +35,37 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 
 --------------
  
-### ⚰️ The Fundamental Questions of Life!
+### ✨ The Fundamental Questions of Life!
 
-#### 1. Python vs Matlab : 
-MATLAB : is the easiest & most productive computing environment for engineers and scientists. It includes MATLAB language, the only top programming language dedicated to mathematical and technical computing.</br>
-Python : is a general-purpose programming language.
+#### 1. Python vs Matlab :
+
+    MATLAB : is the easiest & most productive computing environment for engineers and scientists. It includes MATLAB language, the <br />
+  only top programming language dedicated to mathematical and technical computing <br />
+
+  MATLAB : is the easiest & most productive computing environment for engineers and scientists. It includes MATLAB language, the <br />
+  only top programming language dedicated to mathematical and technical computing <br />
+  Python : is a general-purpose programming language. <br />
+<br />
+
+
+  MATLAB : is the easiest & most productive computing environment for engineers and scientists. It includes MATLAB language, the only top programming language dedicated to mathematical and technical computing. 
+  Python : is a general-purpose programming language. 
    
 #### 2. Which on is faster :
-MATLAB ; matlab takes to complete the task is 0.252454 seconds while numpy 0.973672151566
-   
+
+  MATLAB ; matlab takes to complete the task is 0.252454 seconds while numpy 0.973672151566 <br />
   
 #### 3. How many decades will it take to learn Matlab?
-2 hour or less with this optimised note(if you know basics of Pyhon)
+
+  2 hour or less with this optimised note(if you know basics of Pyhon) <br />
    
 #### 4. But Matlab is Paid!
-I understand. Use Octave Online for free : https://octave-online.net/
+
+  I understand. Use Octave Online for free : https://octave-online.net/ <br />
    
 #### 5. How to thank 'you'?
-Star this Repository and follow us on twitter @qxresearchx to Support our research team @qxresearch
+
+  Star this Repository and follow us on twitter @qxresearchx to Support our research team @qxresearch <br />
    
 --------------   
 
@@ -71,3 +83,7 @@ Machine Learning Onramp  | `NumPy` `Pandas` `Matplotlib` `OpenCV` `Scipy` | [Not
 1. [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
 2. [Machine Learning Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=machinelearning)
 3. [All Resources #mathworks](https://matlabacademy.mathworks.com/)
+
+The action of every agent <br />
+  into the world <br />
+  fs the easiest &computi <br />
