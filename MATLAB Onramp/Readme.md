@@ -49,9 +49,10 @@ Just go throuh the readme.md files everything will be clear in one shot. From so
 
 |Function	| Work | Example |
 |---------|---------|---------|
-|`pi` |	The number π|  |
-|`sin()` `cos()`| Trigonometric function|  |
-|`NaN` |	Undefined numerical result (not a number)|  |
+|`pi` |	The number π|  x = pi/2 |
+|`sin()` `cos()`| Trigonometric function| y = sin(x) |
+|`NaN` |	Undefined numerical result (not a number)| X = NaN(3) to create a 3x3 matix with Nan elements |
+|  |  |  |
 |  |  |  |
 |`ans`	| Most recent answer|  |
 |`eps`	| Accuracy of floating-point precision|  |
