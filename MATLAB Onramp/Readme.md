@@ -5,8 +5,6 @@
   <h3 align="center">MATLAB for Machine Learning #Onramp.m</h3>
   <p align="center">
     Variable • Files • Vector & Matrices • Array • Function • Plotting
-      <br />
-    <br>
   </p>
 </p>
 
