@@ -19,7 +19,7 @@
     [![MATLAB](https://github.com/mathworks/Database-Explorer-for-IIASA/workflows/MATLAB/badge.svg)](https://github.com/mathworks/Database-Explorer-for-IIASA/actions?query=workflow%3AMATLAB)
   
   
-### 🗺️ The Fundamental Questions of Life!
+### ⚰️ The Fundamental Questions of Life!
 
 1. Python vs Matlab : 
    ```
