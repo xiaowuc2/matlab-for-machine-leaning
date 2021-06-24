@@ -70,8 +70,8 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `size` | Array size | s = size(x) |
 | `;` | ⚠️ Inside `[` `]` it creates column matrix \| We add this at the end of a line to avoid printing it's value in console | 1. a = [1 2 3 : 4 5 6] 2. y = [ 1 2 3 ]; |
 | `randi(imax,size)` | randi(imax) returns a pseudorandom scalar integer between 1 and imax. | r = randi(10,5) : between 1 to 10, 5 elements \| r = randi(10,1,5) : between 1 to 10, 1x5 elements |
-|  |  |  |
-|  |  |  |
+| `plot(x,y,"r--o")` | Plot graph x,y where `r` means red, `--` the line of graph, `o` determines what the point should look like | plot(A,B,"r--o") |
+| `hold on` | To hold the previous plot while you add another line. | plot(x1,y1) \n hold on \n plot(x2,y2) |
 |  |  |  |
 |  |  |  |
 |  |  |  |
@@ -696,8 +696,8 @@ Task : Create a plot with sample on the x-axis and mass1 on the y-axis.
 
 <kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot1.png"/></a></kbd><br/>
 
-The plot function accepts an additional argument that allows you to specify the color, line style, and marker style using different symbols in single quotes.
-plot(x,y,"r--o")
+The plot function accepts an additional argument that allows you to specify the color, line style, and marker style using different symbols in single quotes.</br>
+plot(x,y,"r--o")</br>
 The command above plots a red (r) dashed (--) line with a circle (o) as a marker. You can learn more about the symbols available in the documentation for Line Specification.
 
 Task : Plot mass2 (y-axis) against sample (x-axis). Use red (r) star (*) markers and no line in your plot.
@@ -705,6 +705,14 @@ Task : Plot mass2 (y-axis) against sample (x-axis). Use red (r) star (*) markers
 \>> plot(sample,mass2,"r*")
 
 <kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot2.png"/></a></kbd><br/>
+
+Notice that each plot command created a separate plot. To plot one line on top of another, use the hold on command to hold the previous plot while you add another line.</br>
+
+plot(x1,y1)</br>
+hold on</br>
+plot(x2,y2)</br>
+
+Task : Enter the `hold on` command. Then plot mass1 (y-axis) against sample (x-axis) with black (k) square (s) markers and no line
 
 
 
