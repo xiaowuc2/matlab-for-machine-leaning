@@ -47,7 +47,7 @@ Just go throuh the readme.md files everything will be clear in one shot. From so
     All Built-in Function and Operator Used in This Course
   </p>
 
-|Function	| Work | Example |
+|Function & Operator | Work | Example |
 |---------|---------|---------|
 |`pi` |	The number π|  x = pi/2 |
 |`sin()` `cos()`| Trigonometric function| y = sin(x) |
