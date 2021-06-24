@@ -42,6 +42,26 @@ Just go throuh the readme.md files everything will be clear in one shot. From so
 
 --------------
 <p align="center">
+  <h3 align="center">Function Cheat Sheet</h3>
+  <p align="center">
+    All Built-in Function Used in This Course
+  </p>
+
+|Function	| Work | Example |
+|---------|---------|---------|
+|`pi` |	The number π|  |
+|`sin()` `cos()`| Trigonometric function|  |
+|`NaN` |	Undefined numerical result (not a number)|  |
+|  |  |  |
+|`ans`	| Most recent answer|  |
+|`eps`	| Accuracy of floating-point precision|  |
+|`i,j`	| The imaginary unit √-1|  |
+|`Inf` |	Infinity|  |
+
+
+
+--------------
+<p align="center">
   <h3 align="center">Commands</h3>
   <p align="center">
     Variable • Built-in Function(math) • Constant
@@ -143,16 +163,6 @@ data =
 --------------
 
 ### 2.4 Using Built-in Functions and Constants 💡
-
-|Function	| Work |
-|---------|---------|
-|`ans`	| Most recent answer|
-|`eps`	| Accuracy of floating-point precision|
-|`i,j`	| The imaginary unit √-1|
-|`Inf` |	Infinity|
-|`NaN` |	Undefined numerical result (not a number)|
-|`pi` |	The number π|
-|`sin()` `cos()`| Trigonometric function|
 
 \>> x = pi/2
 
@@ -559,3 +569,24 @@ Task : Create a variable named `mass` containing the elementwise product of `den
     Multiple Outputs from Function Calls
   </p>
 </p>
+
+### 7.1 Obtaining Multiple Outputs from Function Calls
+
+Given `datafile`. Let's see what's in there
+
+\>> load datafile
+
+\>> v1 = data(:,3);
+
+\>> v2 = data(:,4);    
+    
+\>> data
+```
+3.0000 0.5300 4.0753 NaN
+18.0000 1.7800 6.6678 3.6852
+19.0000 0.8600 1.5177 3.5389
+20.0000 1.6000 3.6375 10.1570
+21.0000 3.0000 4.7243 10.1570
+23.0000 6.1100 9.0698 2.8739
+38.0000 2.5400 5.3002 4.4508
+```
