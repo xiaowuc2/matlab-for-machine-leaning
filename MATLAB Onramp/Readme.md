@@ -41,6 +41,12 @@ Just go throuh the readme.md files everything will be clear in one shot. From so
 #mathworks Course : [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
 
 --------------
+<p align="center">
+  <h3 align="center">Commands</h3>
+  <p align="center">
+    Variable • Built-in Function(math) • Constant
+  </p>
+</p>
 
 <br>
 </br>
@@ -157,6 +163,13 @@ z =
    0.0000 + 3.0000i
 ```  
 --------------
+<p align="center">
+  <h3 align="center">Vectors and Matrices</h3>
+  <p align="center">
+    Array • Evenly-Spaced Vectors • Array Creation Function(ones,zeros)
+  </p>
+</p>
+
 ### 4.1 Manually Entering Arrays
 
 \>> x = 4 
@@ -237,14 +250,15 @@ x = 4 #one dimentional array. By default row vector
 \>> x = (1:2:5)' #1 to 5, step = 2
 ```
 1
-2
 3
+5
 ```
 
 --------------
 
 ### 4.3 Array Creation Functions
-#### rand(size, classname) function. Creates a size\*size  matrix with random values.
+
+#### rand(size, classname) function. Creates a size\*size  matrix with random values if dimention is not mentioned.
 \>> x = rand(2)
 ```
 0.8147    0.1270
@@ -252,5 +266,34 @@ x = 4 #one dimentional array. By default row vector
 
 2x2 #and the valuse will change everytime
 ```
-\>> 
+\>> x= rand(2,3)
+```
+0.6324    0.2785    0.9575
+0.0975    0.5469    0.9649
+```
+#### ones function : gives a matrix where all elements are '1' : ones(2,3)
+#### zeros function : gives a matix where all elements are '0' : zeros(4,2)
 
+\>> x = ones(2,3)
+```
+1  1  1
+1  1  1
+```
+/>> x = zerso(6,3)
+```
+0  0  0  
+0  0  0
+0  0  0 
+0  0  0
+0  0  0 
+0  0  0
+```
+--------------
+<p align="center">
+  <h3 align="center">Indexing and Modifying Arrays</h3>
+  <p align="center">
+    Array • Extracting Elements @array
+  </p>
+</p>
+
+\>> 
