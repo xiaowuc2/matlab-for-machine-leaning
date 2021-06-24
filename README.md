@@ -18,8 +18,6 @@
  
  <br></br>
  
- --------------
- 
  ### What is this Repository all about?
 
 This repository contains the essence of Matlab. If you're interested in Machine Learning and Research then you should deffinetely go through the readme.md file once. This course will give you a clear insight about why we use MATLAB in the first place for Machine Learning.You can run the source codes(.m) on [Octave Online](https://octave-online.net). If you ruminate about the code, there is no significant difference between Python and Matlab, so just dive into it.
