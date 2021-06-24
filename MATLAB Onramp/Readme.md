@@ -72,7 +72,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `randi(imax,size)` | randi(imax) returns a pseudorandom scalar integer between 1 and imax. | r = randi(10,5) : between 1 to 10, 5 elements \| r = randi(10,1,5) : between 1 to 10, 1x5 elements |
 | `plot(x,y,"r--o")` | Plot graph x,y where `r` means red, `--` the line of graph, `o` determines what the point should look like | plot(A,B,"r--o") |
 | `hold on` | To hold the previous plot while you add another line. | plot(x1,y1) \n hold on \n plot(x2,y2) |
-|  |  |  |
+| `hold off` | Back to normal | `hold off` |
 |  |  |  |
 |  |  |  |
 |`ans`	| Most recent answer|  |
