@@ -51,7 +51,18 @@ Just go throuh the readme.md files everything will be clear in one shot. From so
 |---------|---------|---------|
 |`pi` |	The number π|  x = pi/2 |
 |`sin()` `cos()`| Trigonometric function| y = sin(x) |
-|`NaN` |	Undefined numerical result (not a number)| X = NaN(3) to create a 3x3 matix with Nan elements |
+|`NaN` |	Undefined numerical result (not a number)| X = NaN |
+|`NaN()` |	Creates a matrix containing `NaN` | X = NaN(3) : will create a 3x3 matix containing `NaN` |
+| `zeros()` | Creates a matrix containing `0` | zeros(3) : will create a 3x3 matrix with `0` |
+| `ones()` | Creates a matrix containing `1` | ones(2) : will create a 2x2 matrix with `1` |
+|	`max()` | Finds out the maximum value in an Array | max(Array1) : will return max value in `Array1` |
+| `sqrt()` | Square root of a number | x = sqrt(2) |
+| `[` `]` | Creates Matrix | x = [1 2 3] |
+| `:` | from to | 1:5 : gives 1 2 3 4 5 |
+| `linspace(first,last,number_of_elements)` | from first to last prints `n` with same difference | x = linespace(1,10,5) |
+| `end` | `end` of a Matrix . helpts to find row column elements | data(end-1,end) |
+| `round` | Roundes up float to integer | round(1.2354) |
+|  |  |  |
 |  |  |  |
 |  |  |  |
 |`ans`	| Most recent answer|  |
