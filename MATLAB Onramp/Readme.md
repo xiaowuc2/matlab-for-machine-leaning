@@ -44,7 +44,7 @@ Just go throuh the readme.md files everything will be clear in one shot. From so
 <p align="center">
   <h3 align="center">Function Cheat Sheet</h3>
   <p align="center">
-    All Built-in Function Used in This Course
+    All Built-in Function and Operator Used in This Course
   </p>
 
 |Function	| Work | Example |
