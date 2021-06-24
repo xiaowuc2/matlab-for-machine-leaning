@@ -36,31 +36,31 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
  
 ### ⚰️ The Fundamental Questions of Life!
 
-1. Python vs Matlab : 
-   ```
+#### 1. Python vs Matlab : 
+   
    MATLAB : is the easiest & most productive computing environment for engineers and scientists. It 
    includes MATLAB language, the only top programming language dedicated to mathematical and technical 
    computing.
 
    Python : is a general-purpose programming language.
-   ```
-2. Which on is faster :
-   ```
-   MATLAB ; matlab takes to complete the task is 0.252454 seconds while numpy 0.973672151566
-   ```
+   
+#### 2. Which on is faster :
   
-3. How many decades will it take to learn Matlab?
-   ```
+   MATLAB ; matlab takes to complete the task is 0.252454 seconds while numpy 0.973672151566
+   
+  
+#### 3. How many decades will it take to learn Matlab?
+   
    2 hour or less with this optimised note(if you know basics of Pyhon)
-   ``` 
-4. But Matlab is Paid!
-   ```
+   
+#### 4. But Matlab is Paid!
+   
    I understand. Use Octave Online for free : https://octave-online.net/
-   ```
-5. How to thank 'you'?
-   ```
+   
+#### 5. How to thank 'you'?
+   
    Star this Repository and follow us on twitter @qxresearchx to Support our research team @qxresearch
-   ```
+   
 
 ### 🗺️ What's in the Repository?
 
@@ -68,6 +68,8 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 ------------- | ------------- | ------------- | ------------- 
 Matlab Onramp  |  `Variable`  `Files`  `Vector & Matrices`  `Array`  `Function`  `Plotting` | [Note]() | [Code]() 
 Machine Learning Onramp  | `NumPy` `Pandas` `Matplotlib` `OpenCV` `Scipy` | [Note]() | [Code]()
+
+--------------
 
 ### 🗺️ Other Resources #mathworks: 
 
