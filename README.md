@@ -42,14 +42,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
     MATLAB : is the easiest & most productive computing environment for engineers and scientists. It includes  <br />
   MATLAB language, is the only top programming language dedicated to mathematical and technical computing <br />
 
-  MATLAB : is the easiest & most productive computing environment for engineers and scientists. It includes MATLAB language, the <br />
-  only top programming language dedicated to mathematical and technical computing <br />
   Python : is a general-purpose programming language. <br />
-<br />
-
-
-  MATLAB : is the easiest & most productive computing environment for engineers and scientists. It includes MATLAB language, the only top programming language dedicated to mathematical and technical computing. 
-  Python : is a general-purpose programming language. 
    
 #### 2. Which on is faster :
 
