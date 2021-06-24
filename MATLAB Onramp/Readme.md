@@ -456,7 +456,7 @@ Task : Change the `NaN` in `data`
 <p align="center">
   <h3 align="center">Array Calculation</h3>
   <p align="center">
-    Addition • Substraction • 
+    Addition • Substraction • sqrt() 
 </p>
 </p>
 
@@ -505,4 +505,50 @@ Task : Create a vector `vs` that is the sum of the vectors `v1` and `v2`
 14.8813
 11.9437
  9.7510
+```
+Task : Create a variable `va` that contains the value `vs` divided by 2 (the average volume)
+
+\>> va = vs / 2
+```
+  NaN
+ 4.4003
+ 2.6014
+ 6.0882
+ 7.4406
+ 5.9718
+ 4.8755
+```
+#### max() function. It finds the max in the array
+Task : Create a variable `vm` containing the maximum of the `va` vector
+
+\>> vm = max(va)
+```
+vs = 7.4407
+```
+Task : Using the `round` function, create a variable named `vr` which contains the rounded average volumes, `va`
+
+\>> vr = round(va)
+```
+ NaN
+  4
+  3
+  6
+  7
+  6
+  5
+```
+#### Matrix Multiplication is done by `*` Elementwise multiplication is done by `.*`
+
+Task : Create a variable named `mass` containing the elementwise product of `density` and `va`
+
+/>> mass = density .* va
+
+```
+       NaN
+    7.8325
+    2.2372
+    9.7411
+   22.3220
+   36.4880
+   12.3838
 ```
