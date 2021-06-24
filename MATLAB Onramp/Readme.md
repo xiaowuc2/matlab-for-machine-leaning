@@ -541,7 +541,7 @@ Task : Using the `round` function, create a variable named `vr` which contains t
 
 Task : Create a variable named `mass` containing the elementwise product of `density` and `va`
 
-/>> mass = density .* va
+\>> mass = density .* va
 
 ```
        NaN
