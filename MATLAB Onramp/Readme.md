@@ -552,3 +552,10 @@ Task : Create a variable named `mass` containing the elementwise product of `den
    36.4880
    12.3838
 ```
+--------------
+<p align="center">
+  <h3 align="center">Calling Functions</h3>
+  <p align="center">
+    Multiple Outputs from Function Calls
+  </p>
+</p>
