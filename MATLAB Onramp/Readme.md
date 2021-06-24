@@ -236,6 +236,7 @@ x = 4 #one dimentional array. By default row vector
 ```
 #### Transpose Operator : `'`
 \>> x = 1:3;
+
 \>> x = x'
 ```
 1
@@ -303,6 +304,7 @@ x = 4 #one dimentional array. By default row vector
 Given `datafile`, let's see what's inside
 
 \>> load datafile
+
 \>> data
 ```
 3.0000 0.5300 4.0753 NaN
@@ -334,6 +336,7 @@ x = 9.0698
 Given `datafile`. Let's see what's in there
 
 \>> load datafile
+
 \>> data
 ```
 3.0000 0.5300 4.0753 NaN
@@ -391,6 +394,7 @@ Task : place 2nd throught 5th element of `density` in variable `p`
 Given `datafile`. Let's see what's in there
 
 \>> load datafile
+
 \>> data
 ```
 3.0000 0.5300 4.0753 NaN
