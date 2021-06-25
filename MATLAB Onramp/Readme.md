@@ -816,16 +816,17 @@ Task : Multiply each element of `elements.Density` with `elements.Volume1`. Reme
 
 \>> elements.Mass = elements.Density .* elements.Volume1
 
-<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot11.png"/></a></kbd><br/>
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot11.jpg"/></a></kbd><br/>
 
 You can interact with a table by clicking on it in the output pane of a live script. For example, you can sort a table using one of its variables.
 
-<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot12.png"/></a></kbd><br/>
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot12.jpg"/></a></kbd><br/>
 
 Once you are happy with your table, you can make the changes permanent by updating the code in your script.
 The generated code uses single quotes. In this case, single quotes and double quotes can be used interchangeably.
 
-<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot13.png"/></a></kbd><br/>
+<kbd><a href="https://qxresearch.github.io/qxresearch/">
+<img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot13.jpg"/></a></kbd><br/>
 
 The generated code uses single quotes. In this case, single quotes and double quotes can be used interchangeably.
 
