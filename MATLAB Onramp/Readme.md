@@ -119,25 +119,25 @@ You can always refer to the Official Documentation of Matlab as a guide for sear
 
 \>> 3*5
 
-ans =
+    ans =
 
     15
 
 \>> m = 3*5
 
-m =
+    m =
 
     15
 
 \>> m = m + 1
 
-m =
+    m =
 
     16
 
 \>> y = m/2
 
-y =
+    y =
 
      8
 
@@ -145,13 +145,13 @@ y =
 
 \>> m = 3*k
 
-m =
+    m =
 
     18
 
 \>> y
 
-y =
+    y =
 
      8
 
@@ -161,19 +161,19 @@ y =
 
 \>> a = 8
 
-a =
+    a =
 
      8
 
 \>> A = -2
 
-A =
+    A =
 
     -2
 
 \>> avgAa = (a+A)/2
 
-avgAa =
+    avgAa =
 
      3
 --------------
@@ -211,13 +211,13 @@ Task : Clear screen
 
 \>> x = pi/2
 
-x =
+    x =
 
     1.5708
 
 \>> y = sin(x)
 
-y =
+    y =
 
      1
 
