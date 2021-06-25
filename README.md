@@ -70,7 +70,7 @@ Machine Learning Onramp  | `NumPy` `Pandas` `Matplotlib` `OpenCV` `Scipy` | [Not
 --------------
 ### 📒 Contributing 
 
-For contribution consider following the [CONGTIBUTING.md]() guidelines.
+For contribution consider following the [Contributing.md](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/CONTRIBUTING.md) guidelines.
 
 --------------
 
