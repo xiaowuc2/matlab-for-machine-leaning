@@ -77,3 +77,7 @@ For contribution consider following the [Contributing.md](https://github.com/xia
 ### 🗺️ Other Resources #mathworks: 
 
 - [All Resources #mathworks](https://matlabacademy.mathworks.com/)
+
+<p align="center">
+ <td><img src="https://profile-counter.glitch.me/xiaowuc2/count.svg" alt="Visitors" height="20" /></td>
+</p>
