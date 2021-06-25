@@ -8,7 +8,6 @@
   </p>
 </p>
 
-
 [![GitHub](https://img.shields.io/static/v1.svg?label=Collaborators&message=1&color=success&logo=github&style=social)](https://github.com/qxresearch/Simple-Harmonic-Motion/graphs/contributors)
 [![YouTube](https://img.shields.io/static/v1.svg?label=YouTube&message=@qxresearch&color=grey&logo=youtube&style=flat&logoColor=white&colorA=critical)](https://www.youtube.com/channel/UCX7oe66V8zyFpAJyMfPL9VA)
 [![GitHub followers](https://img.shields.io/github/followers/xiaowuc2?style=social)]("https://github.com/xiaowuc2")
@@ -37,12 +36,30 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 
 ### 🗺️ Table of Contents:
 
-1. [2.1 Entering Command](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#21-entering-command-)
-2. [2.2 Naming Variables](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#22-naming-variables-)
-3. [2.3 Saving and Loading Variables](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#23-saving-and-loading-variables-)
-4. [2.4 Using Built-in Functions and Constants](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#24-using-built-in-functions-and-constants-)
-5. []()
-6. []()
+1. [Function Cheat Sheet](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#function-cheat-sheet)
+2. [Commands](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#commands)
+  - [2.1 Entering Commands](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#21-entering-command)
+  - [2.2 Naming Variables](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#22-naming-variables)
+  - [2.3 Saving and Loading Variables](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#23-saving-and-loading-variables)
+  - [2.4 Using Build-in Function and Constants](https://github.com/xiaowuc2/matlab-for-machine-leaning/tree/main/MATLAB%20Onramp#24-using-built-in-functions-and-constants)
+3. [Vectors and Matrices](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#vectors-and-matrices)
+  - [3.1 Manually Entering Arrays](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#31-manually-entering-arrays)
+  - [3.2 Creating Evenly-Spaced Vectors](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#32-creating-evenly-spaced-vectors)
+  - [3.3 Array Creation Functions](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#33-array-creation-functions)
+4. [Indexing and Modifying Arrays](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#indexing-and-modifying-arrays)
+  - [4.1 Indexing into Arrays](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#41-indexing-into-arrays)
+  - [4.2 Extracting Multiple Elements](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#42-extracting-multiple-elements)
+  - [4.3 Changing Values in Arrays](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#43-changing-values-in-arrays)
+5. [Array Calculation](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#array-calculation)
+6. [Calling Functions](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#calling-functions)
+7. [Plotting Data](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#plotting-data)
+  - [7.1 Plotting Vectors ⚠️](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#71-plotting-vectors-%EF%B8%8F)
+  - [7.2 Annotating Plots](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#71-plotting-vectors-%EF%B8%8F)
+8. [Importing Data](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#importing-data)
+9. [Logical Arrays](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#logical-arrays)
+10. [Programming](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#programming)
+11. [Project](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/MATLAB%20Onramp/Readme.md#111-project---stellar-motion)
+
 
 --------------
 
@@ -217,7 +234,7 @@ z =
   </p>
 </p>
 
-### 3.1 Manually Entering Arrays
+### 4.1 Manually Entering Arrays
 
 \>> x = 4 
 ```
@@ -258,7 +275,7 @@ x = 4 #one dimentional array. By default row vector
 ```
 --------------
 
-### 3.2 Creating Evenly-Spaced Vectors
+### 4.2 Creating Evenly-Spaced Vectors
 
 \>> x = [ 1 2 3]
 ```
@@ -304,7 +321,7 @@ x = 4 #one dimentional array. By default row vector
 
 --------------
 
-### 3.3 Array Creation Functions
+### 4.3 Array Creation Functions
 
 #### rand(size, classname) function. Creates a size\*size  matrix with random values if dimention is not mentioned.
 
@@ -352,7 +369,7 @@ x = 4 #one dimentional array. By default row vector
   </p>
 </p>
 
-### 4.1 Indexing into Arrays
+### 5.1 Indexing into Arrays
 Given `datafile`, let's see what's inside
 
 \>> load datafile
@@ -383,7 +400,7 @@ x = 9.0698
 ```
 --------------
 
-### 4.2 Extracting Multiple Elements
+### 5.2 Extracting Multiple Elements
 
 Given `datafile`. Let's see what's in there
 
@@ -441,7 +458,7 @@ Task : place 2nd throught 5th element of `density` in variable `p`
 3.0000
 ```
 --------------
-### 4.3 Changing Values in Arrays
+### 5.3 Changing Values in Arrays
 
 Given `datafile`. Let's see what's in there
 
@@ -504,7 +521,7 @@ Task : Change the `NaN` in `data`
 </p>
 </p>
 
-### 5.1 Performing Array Operations on Vectors
+### 6.1 Performing Array Operations on Vectors
 
 Given `datafile`. Let's see what's in there
 
@@ -604,7 +621,7 @@ Task : Create a variable named `mass` containing the elementwise product of `den
   </p>
 </p>
 
-### 6.1 Obtaining Multiple Outputs from Function Calls
+### 7.1 Obtaining Multiple Outputs from Function Calls
 
 Given `datafile`. Let's see what's in there
 
@@ -674,7 +691,7 @@ x =
   </p>
 </p>
 
-### 7.1 Plotting Vectors ⚠️
+### 9.1 Plotting Vectors ⚠️
 
 Given `datafile`. Let's see what's in there
 
@@ -763,7 +780,7 @@ Task : Plot `v1` (y-axis) against `sample` (x-axis) with red (`r`) circle (`o`) 
 
 <kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot7.png"/></a></kbd><br/>
 
-### 7.2 Annotating Plots
+### 9.2 Annotating Plots
 
 Labels can be added to plots using plot annotation functions, such as title. `title("Plot Title")`
 
@@ -796,7 +813,7 @@ Task : Create a legend with the labels "Exp A" and "Exp B", in that order.
   </p>
 </p>
 
-### 8.1 Importing Data as a Table ⚠️
+### 11.2 Importing Data as a Table ⚠️
 
 To extract a variable from the table, you can use dot notation: </br>
 `data.VariableName`
@@ -853,7 +870,7 @@ Task : Sort the table by smallest to largest mass
   </p>
 </p>
 
-### 9.1 Logical Indexing
+### 12.1 Logical Indexing
 
 
 Relational operators, such as >, <, ==, and ~= perform comparisons between two values. The outcome of a comparison for equality or inequality is either 1 (true) or 0 (false)</br>
@@ -902,7 +919,7 @@ x(x==999) = 1
   </p>
 </p>
 
-### 10.1 Decision Branching
+### 13.2 Decision Branching
 
 samples : 
 
@@ -922,7 +939,7 @@ else
 end
 ```
 
-### 10.2 For Loops
+### 13.3 For Loops
 
 sample : 
 ```
@@ -938,7 +955,7 @@ end
   </p>
 </p>
 
-### 11.1 Project - Stellar Motion
+### 14.1 Project - Stellar Motion
 
 #### 📖 Project Description : [mathworks/stellar-motion](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted&s_tid=course_mlor_start2#chapter=14&lesson=1&section=1) 
 
