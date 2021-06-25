@@ -933,7 +933,24 @@ end
 
 ### 14.1 Project - Stellar Motion
 
+#### 📖 Project Description : [mathworks/stellar-motion](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted&s_tid=course_mlor_start2#chapter=14&lesson=1&section=1) 
 
+```
+load starData
+nObs = size(spectra,1)
+lambdaStart = 630.02
+lambdaDelta = 0.14
+
+lambdaEnd = lambdaStart + (nObs-1).* lambdaDelta
+lambda = (lambdaStart:lambdaDelta:lambdaEnd)'
+
+s = spectra(:,6)
+
+loglog(lambda,s,".-")
+xlabel("Wavelength")
+ylabel("Intensity")
+
+```
 
 --------------
 
