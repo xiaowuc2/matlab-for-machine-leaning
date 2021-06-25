@@ -28,6 +28,7 @@ This repository contains the essence of Matlab. If you're interested in Machine 
 #### 📖 Practice & Certification @mathworks : [MATLAB Onramp](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted)
 
 --------------
+
 #### 🔬 Interested in Machine Learning Research?
 You can join [@qxresearch](https://github.com/qxresearch) and become part of a 150+ developers team.</br> 
 To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject: `your-github-username @qxresearch`) attach your CV.
@@ -44,18 +45,19 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 6. []()
 
 --------------
+
 <p align="center">
   <h3 align="center">Function Cheat Sheet</h3>
   <p align="center">
     All Built-in Function and Operator Used in This Course
   </p>
 
-|Function & Operator | Work | Example |
+| Function & Operator | Work | Example |
 |---------|---------|---------|
-|`pi` |	The number π|  x = pi/2 |
-|`sin()` `cos()`| Trigonometric function| y = sin(x) |
-|`NaN` |	Undefined numerical result (not a number)| X = NaN |
-|`NaN()` |	Creates a matrix containing `NaN` | X = NaN(3) : will create a 3x3 matix containing `NaN` |
+| `pi` |	The number π|  x = pi/2 |
+| `sin()` `cos()`| Trigonometric function| y = sin(x) |
+| `NaN` |	Undefined numerical result (not a number)| X = NaN |
+| `NaN()` |	Creates a matrix containing `NaN` | X = NaN(3) : will create a 3x3 matix containing `NaN` |
 | `zeros()` | Creates a matrix containing `0` | zeros(3) : will create a 3x3 matrix with `0` |
 | `ones()` | Creates a matrix containing `1` | ones(2) : will create a 2x2 matrix with `1` |
 |	`max()` | Finds out the maximum value in an Array | max(Array1) : will return max value in `Array1` |
@@ -781,13 +783,13 @@ Task : Create a legend with the labels "Exp A" and "Exp B", in that order.
 
 --------------
 <p align="center">
-  <h3 align="center">Logical Arrays</h3>
+  <h3 align="center">Importing Data</h3>
   <p align="center">
     Logical Indexing
   </p>
 </p>
 
-### 12.1 Logical Indexing ⚠️
+### 11.2 Importing Data as a Table ⚠️
 
 To extract a variable from the table, you can use dot notation: </br>
 `data.VariableName`
@@ -834,6 +836,56 @@ Task : Sort the table by smallest to largest mass
 <kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot14.png"/></a></kbd><br/>
 
 #### 📖 `sortrows()` function in detail : [Matlab Documentation](https://in.mathworks.com/help/matlab/ref/double.sortrows.html;jsessionid=1b6b10339bb49e377abb4784084f#:~:text=tblB%20%3D%20sortrows(%20tblA%20)%20sorts,second%20variable%2C%20and%20so%20on.)
+
+--------------
+<p align="center">
+  <h3 align="center">Logical Arrays</h3>
+  <p align="center">
+    Logical Indexing
+  </p>
+</p>
+
+### 12.1 Logical Indexing
+
+
+Relational operators, such as >, <, ==, and ~= perform comparisons between two values. The outcome of a comparison for equality or inequality is either 1 (true) or 0 (false)</br>
+
+Task : Use the relational operator `<` to test if π is less than 4. Assign the output to a variable named `test`
+
+\>> test = pi < 4
+
+You can compare a vector or matrix to a single scalar value using relational operators. The result is a logical array of the same size as the original array.</br>
+
+[5 10 15] > 12 </br>
+
+ans = 0    0    1
+
+Task : Test the vector v1 for elements that are less than 4. Assign the output to a variable named test.
+
+Given vector `v1`
+
+\>> test = v1 < 4  
+
+You can use a logical array as an array index, in which case MATLAB extracts the array elements where the index is true. The following example will extract all elements in v1 that are greater than six.</br>
+
+v = v1(v1 > 6)
+
+v =
+6.6678
+9.0698
+
+You can also use logical indexing with two different vectors.</br>
+
+v = sample(v1 > 6)</br>
+
+v =
+18
+23
+
+You can use logical indexing to reassign values in an array. For example, if you wish to replace all values in the array x that are equal to 999 with the value 1, use the following syntax.</br>
+
+x(x==999) = 1
+
 --------------
 
 ### Interesting Facts & Projects @Matlab 
