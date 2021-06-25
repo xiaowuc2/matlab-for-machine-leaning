@@ -904,7 +904,16 @@ if x == 0.5
     y = 3
 end
 ```
+sample :
 
+```
+x = rand
+if x > 0.5
+    y = 3
+else
+    y = 4
+end
+```
 
 --------------
 
