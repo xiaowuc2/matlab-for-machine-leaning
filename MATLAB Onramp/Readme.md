@@ -328,6 +328,13 @@ x = 4 #one dimentional array. By default row vector
 1  1  1
 1  1  1
 ```
+
+\>> x = 2 * (ones2,3)
+```
+2  2  2
+2  2  2
+```
+
 \>> x = zerso(6,3)
 ```
 0  0  0  
