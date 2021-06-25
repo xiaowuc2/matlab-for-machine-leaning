@@ -90,7 +90,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `;` | ⚠️ Inside `[` `]` it creates column matrix \| We add this at the end of a line to avoid printing it's value in console | 1. a = [1 2 3 : 4 5 6] 2. y = [ 1 2 3 ]; |
 | `randi(imax,size)` | randi(imax) returns a pseudorandom scalar integer between 1 and imax. | r = randi(10,5) : between 1 to 10, 5 elements \| r = randi(10,1,5) : between 1 to 10, 1x5 elements |
 | `rand(a,b)` | Creates axb matrix of random uniform distribution between `0` and `1` | w = rand(1,3) |
-| `randn(a,b)` | Creates axb matrix of random number in Gauissian Distribution where mean is zero & varience is 1 | w = rand(3,4) |
+| `randn(a,b)` | Creates axb matrix of random number in Gauissian Distribution where mean is zero & varience or Standard Deviation is 1 | w = rand(3,4) |
 | `plot(x,y,"r--o")` | Plot graph x,y where `r` means red, `--` the line of graph, `o` determines what the point should look like | plot(A,B,"r--o") |
 | `hold on` | To hold the previous plot while you add another line. | plot(x1,y1) \n hold on \n plot(x2,y2) |
 | `hold off` | Back to normal | `hold off` |
