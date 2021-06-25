@@ -217,7 +217,7 @@ z =
   </p>
 </p>
 
-### 4.1 Manually Entering Arrays
+### 3.1 Manually Entering Arrays
 
 \>> x = 4 
 ```
@@ -258,7 +258,7 @@ x = 4 #one dimentional array. By default row vector
 ```
 --------------
 
-### 4.2 Creating Evenly-Spaced Vectors
+### 3.2 Creating Evenly-Spaced Vectors
 
 \>> x = [ 1 2 3]
 ```
@@ -304,7 +304,7 @@ x = 4 #one dimentional array. By default row vector
 
 --------------
 
-### 4.3 Array Creation Functions
+### 3.3 Array Creation Functions
 
 #### rand(size, classname) function. Creates a size\*size  matrix with random values if dimention is not mentioned.
 
@@ -352,7 +352,7 @@ x = 4 #one dimentional array. By default row vector
   </p>
 </p>
 
-### 5.1 Indexing into Arrays
+### 4.1 Indexing into Arrays
 Given `datafile`, let's see what's inside
 
 \>> load datafile
@@ -383,7 +383,7 @@ x = 9.0698
 ```
 --------------
 
-### 5.2 Extracting Multiple Elements
+### 4.2 Extracting Multiple Elements
 
 Given `datafile`. Let's see what's in there
 
@@ -441,7 +441,7 @@ Task : place 2nd throught 5th element of `density` in variable `p`
 3.0000
 ```
 --------------
-### 5.3 Changing Values in Arrays
+### 4.3 Changing Values in Arrays
 
 Given `datafile`. Let's see what's in there
 
@@ -504,7 +504,7 @@ Task : Change the `NaN` in `data`
 </p>
 </p>
 
-### 6.1 Performing Array Operations on Vectors
+### 5.1 Performing Array Operations on Vectors
 
 Given `datafile`. Let's see what's in there
 
@@ -604,7 +604,7 @@ Task : Create a variable named `mass` containing the elementwise product of `den
   </p>
 </p>
 
-### 7.1 Obtaining Multiple Outputs from Function Calls
+### 6.1 Obtaining Multiple Outputs from Function Calls
 
 Given `datafile`. Let's see what's in there
 
@@ -674,7 +674,7 @@ x =
   </p>
 </p>
 
-### 9.1 Plotting Vectors ⚠️
+### 7.1 Plotting Vectors ⚠️
 
 Given `datafile`. Let's see what's in there
 
@@ -763,7 +763,7 @@ Task : Plot `v1` (y-axis) against `sample` (x-axis) with red (`r`) circle (`o`) 
 
 <kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot7.png"/></a></kbd><br/>
 
-### 9.2 Annotating Plots
+### 7.2 Annotating Plots
 
 Labels can be added to plots using plot annotation functions, such as title. `title("Plot Title")`
 
@@ -796,7 +796,7 @@ Task : Create a legend with the labels "Exp A" and "Exp B", in that order.
   </p>
 </p>
 
-### 11.2 Importing Data as a Table ⚠️
+### 8.1 Importing Data as a Table ⚠️
 
 To extract a variable from the table, you can use dot notation: </br>
 `data.VariableName`
@@ -853,7 +853,7 @@ Task : Sort the table by smallest to largest mass
   </p>
 </p>
 
-### 12.1 Logical Indexing
+### 9.1 Logical Indexing
 
 
 Relational operators, such as >, <, ==, and ~= perform comparisons between two values. The outcome of a comparison for equality or inequality is either 1 (true) or 0 (false)</br>
@@ -902,7 +902,7 @@ x(x==999) = 1
   </p>
 </p>
 
-### 13.2 Decision Branching
+### 10.1 Decision Branching
 
 samples : 
 
@@ -922,7 +922,7 @@ else
 end
 ```
 
-### 13.3 For Loops
+### 10.2 For Loops
 
 sample : 
 ```
@@ -938,7 +938,7 @@ end
   </p>
 </p>
 
-### 14.1 Project - Stellar Motion
+### 11.1 Project - Stellar Motion
 
 #### 📖 Project Description : [mathworks/stellar-motion](https://matlabacademy.mathworks.com/R2021a/portal.html?course=gettingstarted&s_tid=course_mlor_start2#chapter=14&lesson=1&section=1) 
 
