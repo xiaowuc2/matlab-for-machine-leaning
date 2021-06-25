@@ -77,6 +77,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `NaN()` |	Creates a matrix containing `NaN` | X = NaN(3) : will create a 3x3 matix containing `NaN` |
 | `zeros()` | Creates a matrix containing `0` | zeros(3) : will create a 3x3 matrix with `0` |
 | `ones()` | Creates a matrix containing `1` | ones(2) : will create a 2x2 matrix with `1` |
+| `eye(a)` | Identity matrix of axa | a = eye(4) |
 |	`max()` | Finds out the maximum value in an Array | max(Array1) : will return max value in `Array1` |
 | `sqrt()` | Square root of a number | x = sqrt(2) |
 | `[` `]` | Creates Matrix | x = [1 2 3] |
