@@ -77,6 +77,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `numel()` | Returns the number of elements in an Array. In python we uses `len()` | n = numel(A) |
 | `abs()` | Returns the absolute value | a = abs(-5) : output = 5 |
 | `xlim([low high])` | For plotting we can bound the numbers | xlim([0 1000]) |
+| `sortrows(A, 2)` | Sorting rows of A the basis of column 2 | sortrows(A, [2 7]) : sort row A on the basis of column 2, reffer column 7 if any ties in column 2(if same element in 2) |
 |`ans`	| Most recent answer|  |
 |`eps`	| Accuracy of floating-point precision|  |
 |`i,j`	| The imaginary unit √-1|  |
@@ -780,13 +781,59 @@ Task : Create a legend with the labels "Exp A" and "Exp B", in that order.
 
 --------------
 <p align="center">
-  <h3 align="center">Plotting Data</h3>
+  <h3 align="center">Logical Arrays</h3>
   <p align="center">
-    Plotting Vectors • Annotating Plots
+    Logical Indexing
   </p>
 </p>
 
+### 12.1 Logical Indexing ⚠️
 
+To extract a variable from the table, you can use dot notation: </br>
+`data.VariableName`
+
+Given : datafile, let's see whats inside</br>
+
+\>> load datafile 
+
+\>> elements 
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot9.png"/></a></kbd><br/>
+
+Task : Assign the contents of elements.Density to a column vector named d.
+
+\>> d = elements.Density
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot10.png"/></a></kbd><br/>
+
+If you are working with a table, you might want to keep related data together. Instead of creating separate variables, you can assign the result of a calculation to a table.</br>
+data.HeightMeters = data.HeightYards*0.9144</br>
+If the variable data.HeightMeters doesn't exist, MATLAB will create a new variable in the table with the name HeightMeters.</br>
+
+Task : Multiply each element of `elements.Density` with `elements.Volume1`. Remember to use elementwise multiplication with `.*` Assign the result to `elements.Mass`</br>
+
+\>> elements.Mass = elements.Density .* elements.Volume1
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot11.png"/></a></kbd><br/>
+
+You can interact with a table by clicking on it in the output pane of a live script. For example, you can sort a table using one of its variables.
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot12.png"/></a></kbd><br/>
+
+Once you are happy with your table, you can make the changes permanent by updating the code in your script.
+The generated code uses single quotes. In this case, single quotes and double quotes can be used interchangeably.
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot13.png"/></a></kbd><br/>
+
+The generated code uses single quotes. In this case, single quotes and double quotes can be used interchangeably.
+
+Task : Sort the table by smallest to largest mass
+
+\>> elements = sortrows(elements,'Mass')
+
+<kbd><a href="https://qxresearch.github.io/qxresearch/"><img title="Abstract" src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/plot14.png"/></a></kbd><br/>
+
+`sortrows()` function in detail : [Matlab Documentation](https://in.mathworks.com/help/matlab/ref/double.sortrows.html;jsessionid=1b6b10339bb49e377abb4784084f#:~:text=tblB%20%3D%20sortrows(%20tblA%20)%20sorts,second%20variable%2C%20and%20so%20on.)
 --------------
 
 ### Interesting Facts & Projects @Matlab 
