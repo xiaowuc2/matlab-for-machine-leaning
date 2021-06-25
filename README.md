@@ -56,7 +56,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
    
 #### 5. How to thank 'you'?
 
-  Star this Repository and follow us on twitter @qxresearchx to Support our research team @qxresearch <br />
+  Star this Repository and [follow](https://github.com/xiaowuc2) us on twitter @qxresearchx to Support our research team @qxresearch <br />
    
 --------------   
 
