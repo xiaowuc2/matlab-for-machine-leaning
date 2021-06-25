@@ -950,6 +950,14 @@ loglog(lambda,s,".-")
 xlabel("Wavelength")
 ylabel("Intensity")
 
+[sHa , idx] = min(s)
+lambdaHa = lambda(idx) 
+
+hold on
+plot(lambdaHa,sHa,"rs","MarkerSize",8)
+
+
+
 ```
 
 --------------
