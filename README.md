@@ -18,7 +18,7 @@
  
  <br></br>
  
- <a href="https://github.com/nschloe/optimesh">
+ <a href="https://github.com/xiaowuc2">
   <img src="https://nschloe.github.io/optimesh/cvt-uniform-qnf.webp" align="right" width="20%"/>
 </a>
  
