@@ -888,6 +888,25 @@ You can use logical indexing to reassign values in an array. For example, if you
 x(x==999) = 1
 
 --------------
+<p align="center">
+  <h3 align="center">Programming</h3>
+  <p align="center">
+    Decision Branching • For Looops
+  </p>
+</p>
+
+### 12.1 Decision Branching
+
+samples : 
+
+```
+if x == 0.5
+    y = 3
+end
+```
+
+
+--------------
 
 ### Interesting Facts & Projects @Matlab 
 
