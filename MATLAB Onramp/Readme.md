@@ -895,7 +895,7 @@ x(x==999) = 1
   </p>
 </p>
 
-### 12.1 Decision Branching
+### 13.2 Decision Branching
 
 samples : 
 
@@ -914,6 +914,26 @@ else
     y = 4
 end
 ```
+
+### 13.3 For Loops
+
+sample : 
+```
+for c = 1:3:
+  disp(c)
+end
+```
+--------------
+<p align="center">
+  <h3 align="center">Project</h3>
+  <p align="center">
+    Stellar Motion
+  </p>
+</p>
+
+### 14.1 Project - Stellar Motion
+
+
 
 --------------
 
