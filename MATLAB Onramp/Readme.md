@@ -198,7 +198,8 @@ data =
    23.0000    6.1100    9.0698    2.8739
    38.0000    2.5400    5.3002    4.4508
 ```
-   Task 5
+Task : Clear screen
+
 \>> clr 
 
 ```
@@ -297,6 +298,7 @@ x = 4 #one dimentional array. By default row vector
 0    0.250    0.500    0.750    1.000
 ```
 #### Transpose Operator : `'`
+
 \>> x = 1:3;
 
 \>> x = x'
@@ -580,6 +582,7 @@ Task : Create a variable `va` that contains the value `vs` divided by 2 (the ave
  4.8755
 ```
 #### max() function. It finds the max in the array
+
 Task : Create a variable `vm` containing the maximum of the `va` vector
 
 \>> vm = max(va)
@@ -666,6 +669,7 @@ vMax = 10.157
 ivMax = 5
 ```
 #### randi() function
+
 randi(imax) returns a pseudorandom scalar integer between 1 and imax.
 
 Task : Create a matrix `x` that Contains random integers in the range from 1 to 20 Has 5 rows Has 7 columns
