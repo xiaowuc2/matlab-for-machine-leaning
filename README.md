@@ -42,7 +42,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 
   Python : is a general-purpose programming language. <br />
    
-#### 2. Which on is faster :
+#### 2. Which one is faster :
 
   MATLAB ; matlab takes to complete the task is 0.252454 seconds while numpy 0.973672151566 <br />
   
