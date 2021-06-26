@@ -89,6 +89,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `.*` | Element wise multiplication between matrix | A .* B |
 | `size()` | Array size | s = size(x) |
 | `magic()` | Returns nxn matrix where all column wise and row wise and diagonally sum are same | magic(3) : will return 3x3 matrix with that mathematical property |
+| `find()` | Find row column location where a certaion condition is present | [r, c] = find(A >=7) : find the location where A is greater than or equals to 7 |
 | `length()` | Returns the size of the longest dimention | length(A) : if a is 2x4 then `length()` will return 4 |
 | `who` | Returns variable in current workspace | \>>who |
 | `whos` | Returs everting in the current workspace in detail | \>>whos |
