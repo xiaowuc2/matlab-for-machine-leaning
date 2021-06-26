@@ -262,6 +262,18 @@ x = 4 #one dimentional array. By default row vector
 
 #column vector, 1x2
 ```
+\>> x = [1 2 3 ; 4 5 6]
+
+\>> x(:) #converts axb matrix to vector.
+```
+x = 
+1
+2
+3
+4
+5
+6
+```
 
 \>> x = [3  10  5]
 ```
