@@ -656,6 +656,19 @@ Task : Create a variable named `dsize` containing the size of the `data` variabl
 ```
 7  4
 ```
+
+\>> a = [ 1 2 ; 3 4 ; 5 6] 
+
+\>> size(a,1) # will give the row number
+```
+3
+```
+
+\>> size(a,2) #will give column number
+```
+2
+```
+
 Task : Create the variables `dr` and `dc` which respectively contain the number of rows and columns of the variable `data`
 
 \>> [dr,dc] = size(data) ⚠️
