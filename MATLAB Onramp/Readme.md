@@ -87,7 +87,8 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `round` | Roundes up float to integer | round(1.2354) |
 | `*` | Matrix Matrix multiplication | A * B |
 | `.*` | Element wise multiplication between matrix | A .* B |
-| `size` | Array size | s = size(x) |
+| `size()` | Array size | s = size(x) |
+| `length()` | Returns the size of the longest dimention | length(A) : if a is 2x4 then `length()` will return 4 |
 | `;` | ⚠️ Inside `[` `]` it creates column matrix \| We add this at the end of a line to avoid printing it's value in console | 1. a = [1 2 3 : 4 5 6] 2. y = [ 1 2 3 ]; |
 | `randi(imax,size)` | randi(imax) returns a pseudorandom scalar integer between 1 and imax. | r = randi(10,5) : between 1 to 10, 5 elements \| r = randi(10,1,5) : between 1 to 10, 1x5 elements |
 | `rand(a,b)` | Creates axb matrix of random uniform distribution between `0` and `1` | w = rand(1,3) |
