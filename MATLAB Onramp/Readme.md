@@ -88,6 +88,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `*` | Matrix Matrix multiplication | A * B |
 | `.*` | Element wise multiplication between matrix | A .* B |
 | `size()` | Array size | s = size(x) |
+| `magic()` | Returns nxn matrix where all column wise and row wise sum are same | magic(3) : will return 3x3 matrix with that mathematical property |
 | `length()` | Returns the size of the longest dimention | length(A) : if a is 2x4 then `length()` will return 4 |
 | `who` | Returns variable in current workspace | \>>who |
 | `whos` | Returs everting in the current workspace in detail | \>>whos |
