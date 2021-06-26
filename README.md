@@ -85,5 +85,7 @@ For contribution consider following the [Contributing.md](https://github.com/xia
 - [All Resources #mathworks](https://matlabacademy.mathworks.com/)
 
 <p align="center">
- <td><img src="https://profile-counter.glitch.me/xiaowuc2/count.svg" alt="Visitors" height="20" /></td>
+  
+ [![GitHub](https://img.shields.io/static/v1.svg?label=Views&message=7,541&color=success&logo=github&style=social)](https://github.com/qxresearch/Simple-Harmonic-Motion/graphs/contributors)
+  
 </p>
