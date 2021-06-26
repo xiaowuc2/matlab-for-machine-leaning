@@ -83,9 +83,3 @@ For contribution consider following the [Contributing.md](https://github.com/xia
 ### 🗺️ Other Resources #mathworks: 
 
 - [All Resources #mathworks](https://matlabacademy.mathworks.com/)
-
-<p align="center">
-  
- [![GitHub](https://img.shields.io/static/v1.svg?label=Views&message=7,541&color=success&logo=github&style=social)](https://github.com/qxresearch/Simple-Harmonic-Motion/graphs/contributors)
-  
-</p>
