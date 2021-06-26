@@ -618,9 +618,16 @@ vs = 7.4407
 ```
 \>> A = [8 1 6; 3 7 5; 4 9 2] 
 \>> max(A,[],1) #column wise max ⚠️
-
 ```
 8  9  7
+```
+\>> max(A,[],2) #row wise max
+```
+8
+7
+9 
+
+#** it's not similar, eventually it got similar in our example.
 ```
 
 Task : Using the `round` function, create a variable named `vr` which contains the rounded average volumes, `va`
