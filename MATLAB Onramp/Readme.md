@@ -92,6 +92,9 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `find()` | Find row column location where a certaion condition is present | [r, c] = find(A >=7) : find the location where A is greater than or equals to 7 |
 | `sum()` | Finds out the summation of all elements of that matrix | sum(A) |
 | `prod()` | Finds out the product of all elements of that matrix | prod(A) |
+| `floor()` | Rounds up | floor(a) |
+| `ceil()` | Rounds down | ceil(a) |
+| `` |  |  |
 | `length()` | Returns the size of the longest dimention | length(A) : if a is 2x4 then `length()` will return 4 |
 | `who` | Returns variable in current workspace | \>>who |
 | `whos` | Returs everting in the current workspace in detail | \>>whos |
@@ -613,6 +616,13 @@ Task : Create a variable `vm` containing the maximum of the `va` vector
 ```
 vs = 7.4407
 ```
+\>> A = [8 1 6; 3 7 5; 4 9 2] 
+\>> max(A,[],1) #column wise max ⚠️
+
+```
+8  9  7
+```
+
 Task : Using the `round` function, create a variable named `vr` which contains the rounded average volumes, `va`
 
 \>> vr = round(va)
