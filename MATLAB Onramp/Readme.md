@@ -103,6 +103,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | `abs()` | Returns the absolute value | a = abs(-5) : output = 5 |
 | `xlim([low high])` | For plotting we can bound the numbers | xlim([0 1000]) |
 | `sortrows(A, 2)` | Sorting rows of A the basis of column 2 | sortrows(A, [2 7]) : sort row A on the basis of column 2, reffer column 7 if any ties in column 2(if same element in 2) |
+| `save` | save a file | save new.mat v; it saves variable `v` as `new.mat` in current directory |
 |`ans`	| Most recent answer|  |
 |`eps`	| Accuracy of floating-point precision|  |
 |`i,j`	| The imaginary unit √-1|  |
