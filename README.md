@@ -67,7 +67,6 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | Topics  | Subtopics | Note (.md) | 
 | ------------- | ------------- | ------------- |
 | Matlab Onramp  |  `Variable`  `Files`  `Vector & Matrices`  `Array`  `Function`  `Plotting` | [Note]() |
-| Machine Learning Onramp  | `NumPy` `Pandas` `Matplotlib` `OpenCV` `Scipy` | [Note]() |
 
 --------------
 ### 📒 Contributing 
