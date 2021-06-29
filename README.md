@@ -69,7 +69,7 @@ To join drop a <a href = "mailto: rohitmandal814566@gmail.com">email</a>(subject
 | Matlab Onramp  |  `Variable`  `Files`  `Vector & Matrices`  `Array`  `Function`  `Plotting` | [Note]() |
 
 --------------
-### 📒 Contributing 
+### 💀 Contributing 
 
 For contribution consider following the [Contributing.md](https://github.com/xiaowuc2/matlab-for-machine-leaning/blob/main/CONTRIBUTING.md) guidelines.
 
