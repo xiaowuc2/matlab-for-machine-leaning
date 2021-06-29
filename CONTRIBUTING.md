@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.youtube.com/channel/UCX7oe66V8zyFpAJyMfPL9VA">
-    <img src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/skull_1f480%20(1).png" alt="Dead" width="200" height="200">
+    <img src="https://github.com/xiaowuc2/xiaowuc2/blob/master/source/skull_1f480%20(1).png" alt="Dead" >
   </a>
   <h3 align="center">Long Live Contributors</h3>
   <p align="center">
