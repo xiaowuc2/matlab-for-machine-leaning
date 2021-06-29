@@ -75,6 +75,6 @@ For contribution consider following the [Contributing.md](https://github.com/xia
 
 --------------
 
-### 🗺️ Other Resources #mathworks: 
+### Other Resources #mathworks: 
 
 - [All Resources #mathworks](https://matlabacademy.mathworks.com/)
